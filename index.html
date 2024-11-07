@@ -36,7 +36,7 @@
 
         <ul class="opcoes">
           <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-          <label for="opcoes-menu">
+          <label for="opcoes-menu" class="opcoes__label">
               <li class="opcoes__item">Categorias</li>
           </label> 
           <ul class="lista-menu">
@@ -73,26 +73,25 @@
    
     <section class="carrossel">
       <h2 class="carrossel__titulo">Novos lançamentos</h2>
-      <!-- Slider main container -->
+     
        <div class="carrossel__container">
-<div class="swiper">
-  <!-- Additional required wrapper -->
-   <!-- If we need pagination -->
+       <div class="swiper">
+  
    <div class="swiper-pagination"></div>
    
    <div class="swiper-wrapper">
-    <!-- Slides -->
     <div class="swiper-slide"> <img src="img/ApacheKafka.svg" alt="Apachekafka"></div>
     <div class="swiper-slide"> <img src="img/Liderança.svg" alt="liderança"></div>
     <div class="swiper-slide"> <img src="img/Javascript.svg" alt="javascript"></div>
     <div class="swiper-slide"> <img src="img/Guia Front-end.svg" alt="guia front-end"></div>
     <div class="swiper-slide"> <img src="img/MEAN.svg" alt="mean"></div>
     <div class="swiper-slide"> <img src="img/MetricasAgeis.svg" alt="metricas"></div>
- 
+   </div>
+
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-</div>  
+  <div class="swiper-button-next"></div> 
+       </div>
 
 
          <div class="card">
@@ -111,17 +110,16 @@
             </ul>
             <a href="#" class="botoes__ancora">Saiba mais</a>
           </div>
-         </div>
         </section>
 
         <section class="carrossel">
           <h2 class="carrossel__titulo">Mais vendidos</h2>
-          
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
+            
+            <div class="carrossel__container">
             <div class="swiper">
+
+            <div class="swiper-pagination"></div>
+>
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg"
@@ -138,7 +136,8 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        </div>
+            </div>
+        
 
         <div class="card">
           <div class="card__descricao">
@@ -146,8 +145,7 @@
                   <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
                   <h3 class="descricao__titulo">Autora do Mês</h3>
                   <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                  <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
-                  </p>
+                  <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
               </div>
               <img src="img/Escritora.svg" class="descricao__imagem">
           </div>
@@ -160,7 +158,6 @@
               <!-- 2º coluna -->
               <a href="#" class="botoes__ancora">Saiba mais</a>
           </div>
-      </div>
         </section>
 
         <section class="topicos">
